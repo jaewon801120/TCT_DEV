@@ -1,3 +1,5 @@
+package exam1;
+
 import java.util.*;
 
 public class MainClass3
@@ -20,7 +22,7 @@ public class MainClass3
 			int count = Math.min(n, stock);
 			n -= count;
 			
-			answer += price * n;
+			answer += price * count;
 		}
 		
 		return answer;	
@@ -31,6 +33,6 @@ public class MainClass3
 		int[][] cookings = {{4, 3000}, {3, 4000}};
 		int n = 5;
 		int ret = solution(cookings, n);
-		System.out.println("solution �޼ҵ��� ��ȯ ���� "+ ret + " �Դϴ�.");
+		System.out.println("solution 메소드의 반환 값은 "+ ret + " 입니다.");
 	}
 }

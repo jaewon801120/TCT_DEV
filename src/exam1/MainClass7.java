@@ -1,3 +1,5 @@
+package exam1;
+
 import java.util.*;
 
 public class MainClass7
@@ -55,11 +57,11 @@ public class MainClass7
 									{
 										if(a[1] == b[1])
 										{
-											@@@
+											answer.add('D');
 										}
 										else
 										{
-											@@@
+											answer.add('A');
 										}
 									}
 								}
@@ -102,7 +104,7 @@ public class MainClass7
 				            {4, 2, 4, 1 ,3}};
 
 		ArrayList<Character> ret1 = solution(round1, children1);
-		System.out.println("solution �޼ҵ��� ��ȯ ���� "+ ret1 + " �Դϴ�.");
+		System.out.println("solution 메소드의 반환 값은 "+ ret1 + " 입니다.");
 		
 		int round2 = 4;
 		int[][] children2 = {{4, 3, 2, 1}, 
@@ -115,6 +117,6 @@ public class MainClass7
 				            {3, 2, 1}};
 
 		ArrayList<Character> ret = solution(round2, children2);
-		System.out.println("solution �޼ҵ��� ��ȯ ���� "+ ret + " �Դϴ�.");
+		System.out.println("solution 메소드의 반환 값은 "+ ret + " 입니다.");
 	}
 }

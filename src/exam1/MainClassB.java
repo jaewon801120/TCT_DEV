@@ -1,6 +1,8 @@
+package exam1;
+
 import java.util.*;
 
-public class MainClassB 
+public class MainClassB
 {
 	public static int[] func_a(int[] arr)
 	{
@@ -50,9 +52,9 @@ public class MainClassB
 	{
 		ArrayList<Integer> answer = new ArrayList<Integer>();
 		
-		int[] counter = func_@@@(@@@);
-		int mode = func_@@@(@@@);
-		answer = func_@@@(@@@);
+		int[] counter = func_a(worries);
+		int mode = func_c(counter);
+		answer = func_b(counter, mode);
 		
 		return answer;
 	}
@@ -61,6 +63,6 @@ public class MainClassB
 	{
 		int[] worries = {2, 3, 7, 3, 2, 2, 3};
 		ArrayList<Integer> ret = solution(worries);
-		System.out.println("solution �޼ҵ��� ��ȯ ���� "+ ret + " �Դϴ�.");
+		System.out.println("solution 메소드의 반환 값은 "+ ret + " 입니다.");
 	}
 }

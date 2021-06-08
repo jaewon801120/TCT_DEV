@@ -1,3 +1,5 @@
+package exam1;
+
 import java.util.*;
 
 public class MainClass8
@@ -8,7 +10,7 @@ public class MainClass8
 
 		while(count != 0)
 		{
-			sum += func_@@@(@@@);
+			sum += func_c(count);
 			count /= 10;
 		}
 		
@@ -35,9 +37,9 @@ public class MainClass8
 		
 		for(int i = 1 ; i <= N; i++)
 		{
-			int check = func_@@@(@@@);
+			int check = func_a(i);
 			
-			if(func_@@@(@@@) == 0)
+			if(func_b(check, i) == 0)
 			{
 				answer++;
 			}
@@ -50,10 +52,10 @@ public class MainClass8
 	{
 		int N1 = 9;
 		int ret1 = solution(N1);
-		System.out.println("solution �޼ҵ��� ��ȯ ���� "+ ret1 + " �Դϴ�.");
+		System.out.println("solution 메소드의 반환 값은 "+ ret1 + " 입니다.");
 		
 		int N2 = 21;
 		int ret2 = solution(N2);
-		System.out.println("solution �޼ҵ��� ��ȯ ���� "+ ret2 + " �Դϴ�.");
+		System.out.println("solution 메소드의 반환 값은 "+ ret2 + " 입니다.");
 	}
 }

@@ -1,3 +1,5 @@
+package exam1;
+
 import java.util.*;
 
 public class MainClass1
@@ -23,28 +25,28 @@ public class MainClass1
 	            }
 	        }
 	        answer += tempLength;
-	        tempLength = 0;
+	        tempLength = 100000;
 	    }
 		
 		return answer;
 	}
 	
-	// �Ʒ��� �׽�Ʈ���̽� ����� �غ��� ���� main �޼ҵ��Դϴ�. main �޼ҵ�� �߸��� �κ��� ������, solution �޼ҵ常 �����ϼ���.
+	// 아래는 테스트케이스 출력을 해보기 위한 main 메소드입니다. main 메소드는 잘못된 부분이 없으니, solution 메소드만 수정하세요.
 	public static void main(String[] args) 
 	{
 		int n1 = 5;
 		int[][] coordinate1 = {{0, 1}, {1, 2}, {3, 1}, {4, 2}, {5, 1}}; 
 		int ret1 = solution(n1, coordinate1);
 		
-		// [����] ��ư�� ������ ��� ���� �� �� �ֽ��ϴ�.
-		System.out.println("solution �޼ҵ��� ��ȯ ���� " + ret1 + " �Դϴ�.");
+		// [실행] 버튼을 누르면 출력 값을 볼 수 있습니다.
+		System.out.println("solution 메소드의 반환 값은 " + ret1 + " 입니다.");
 		
 		int n2 = 7;
 		int[][] coordinate2 = {{6, 1}, {7, 2}, {9, 1}, {10, 2}, {0, 1}, {3, 1}, {4, 1}}; 
 		int ret2 = solution(n2, coordinate2);
 		
-		// [����] ��ư�� ������ ��� ���� �� �� �ֽ��ϴ�.
-		System.out.println("solution �޼ҵ��� ��ȯ ���� " + ret2 + " �Դϴ�.");
+		// [실행] 버튼을 누르면 출력 값을 볼 수 있습니다.
+		System.out.println("solution 메소드의 반환 값은 " + ret2 + " 입니다.");
 	}
 }
 
